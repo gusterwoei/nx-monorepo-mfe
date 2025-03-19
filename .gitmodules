@@ -1,0 +1,3 @@
+[submodule "apps/shop"]
+	path = apps/shop
+	url = git@github.com:gusterwoei/nx-monorepo-mfe-shop.git
