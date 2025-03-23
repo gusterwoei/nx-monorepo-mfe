@@ -19,6 +19,10 @@ export default withModuleFederation(
      *   ['app2', 'https://app2.example.com'],
      * ]
      */
+    remotes: [
+      ['shop', '/shop'],
+      ['about', '/about'],
+    ],
   },
   { dts: false }
 );
