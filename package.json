@@ -2,7 +2,12 @@
   "name": "@monorepo-mfe/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve": "nx serve shell --devRemotes=\"shop,about\"",
+    "serve:shop": "nx serve shell --devRemotes=\"shop\"",
+    "serve:about": "nx serve shell --devRemotes=\"about\"",
+    "build": "nx run-many -t build"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~19.2.0",
